@@ -3,7 +3,7 @@ import { partTwo } from "./part-two";
 import { readInput } from "../utils/read-input";
 
 export const getReportEntries = (): number[] =>
-  readInput(__dirname + "/input.txt")
+  readInput("input.txt")
     .split("\n")
     .map((number) => parseInt(number));
 
