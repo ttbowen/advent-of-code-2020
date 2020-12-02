@@ -49,7 +49,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 
 ## Tests
 
-You can run the tests with `yarn run jest`
+You can run the tests with `yarn test`
 
 ## License
 
