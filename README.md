@@ -21,7 +21,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 | ✔ [Day 1: Report Repair](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-01)| ⭐ | ⭐ |
-| [Day 2: TBD]()| | |
+| ✔ [Day 2: Password Philosophy](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-02)| ⭐ | ⭐ |
 | [Day 3: TBD]()| | |
 | [Day 4: TBD]()| | |
 | [Day 5: TBD]()| | |
