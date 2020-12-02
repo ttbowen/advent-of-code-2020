@@ -8,7 +8,7 @@ export function partTwo(entries: PasswordEntry[]): number {
     const secondChar = password.charAt(digitTwo - 1);
 
     if (
-      (firstChar === entry.char && secondChar !== char) ||
+      (firstChar === char && secondChar !== char) ||
       (firstChar !== char && secondChar === char)
     ) {
       validCount++;
