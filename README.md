@@ -1,5 +1,6 @@
 # Advent of Code 2020
 
+![build](https://github.com/ttbowen/advent-of-code-2020/workflows/build/badge.svg)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 > My Advent of Code 2020 TypeScript Solutions.
