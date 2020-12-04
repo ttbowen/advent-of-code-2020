@@ -1,9 +1,8 @@
 import { PassportFields } from "../types";
+import { REQUIRED_FIELDS } from "../constants";
 
 function validateRequired(fields: Partial<PassportFields>) {
-  const requiredFields = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"];
-
-  for (const field of requiredFields) {
+  for (const field of REQUIRED_FIELDS) {
     if (fields[field] === undefined) {
       return false;
     }
