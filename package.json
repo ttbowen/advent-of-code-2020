@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ext .ts",
+    "prettier": "prettier --write *.{js,ts,json}",
     "start": "ts-node src/index.ts"
   },
   "devDependencies": {
