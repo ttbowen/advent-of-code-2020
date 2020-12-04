@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "start": "ts-node src/index.ts"
   },
   "devDependencies": {
     "@types/jest": "^26.0.16",
