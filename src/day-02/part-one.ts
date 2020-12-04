@@ -1,5 +1,10 @@
 import { PasswordEntry } from "./types";
 
+/**
+ * Find how many passwords are valid according to their policies.
+ *
+ * @param entries The password entries.
+ */
 export function partOne(entries: PasswordEntry[]): number {
   let validCount = 0;
   for (const entry of entries) {

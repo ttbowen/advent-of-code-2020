@@ -1,4 +1,4 @@
-import { encounteredTrees } from "./encountered-trees";
+import { getEncounteredTrees } from "./utils/get-encountered-trees";
 import { Slope } from "./types";
 
 export function partOne(map: string): number {
@@ -6,7 +6,7 @@ export function partOne(map: string): number {
     right: 3,
     down: 1,
   };
-  const trees = encounteredTrees(slope, map);
+  const trees = getEncounteredTrees(slope, map);
 
   return trees;
 }

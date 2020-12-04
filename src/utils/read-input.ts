@@ -5,7 +5,7 @@ import * as getCallerFile from "get-caller-file";
  * Reads the input from a file.
  * @param fileName The name of the file.
  */
-export function readInput(fileName: string): string {
+export function readInput(fileName = "input.txt"): string {
   const file = getCallerFile()
     .split("/")
     .slice(0, -1)

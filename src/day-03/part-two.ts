@@ -1,4 +1,4 @@
-import { encounteredTrees } from "./encountered-trees";
+import { getEncounteredTrees } from "./utils/get-encountered-trees";
 import { Slope } from "./types";
 
 export function partTwo(map: string): number {
@@ -11,6 +11,6 @@ export function partTwo(map: string): number {
   ];
 
   return slopes
-    .map((slope) => encounteredTrees(slope, map))
+    .map((slope) => getEncounteredTrees(slope, map))
     .reduce((accumulator, currentValue) => accumulator * currentValue);
 }

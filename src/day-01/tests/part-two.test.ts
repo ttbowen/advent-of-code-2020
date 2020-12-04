@@ -1,5 +1,6 @@
 import { partTwo } from "../part-two";
-import { getReportEntries } from "../index";
+import { readInput } from '../../utils/read-input';
+import { getReportEntries } from '../utils/get-report-entries';
 
 describe(`2020 - Day 1 - Part Two`, () => {
   it(`should return 241861950 with example expense report`, () => {
@@ -10,7 +11,7 @@ describe(`2020 - Day 1 - Part Two`, () => {
           675
           1456
           `;
-    const input = report.split("\n").map((number) => parseInt(number));
+    const input = getReportEntries(report);
     const expectedResult = 241861950;
 
     const result = partTwo(input);
@@ -19,7 +20,8 @@ describe(`2020 - Day 1 - Part Two`, () => {
   });
 
   it(`should return 278783190 with actual expense report`, () => {
-    const input = getReportEntries();
+    const file = readInput("../input.txt");
+    const input = getReportEntries(file);
     const expectedResult = 278783190;
 
     const result = partTwo(input);

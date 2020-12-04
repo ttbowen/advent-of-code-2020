@@ -1,25 +1,9 @@
 import { partOne } from "./part-one";
 import { partTwo } from "./part-two";
 import { readInput } from "../utils/read-input";
-import { PasswordEntry } from "./types";
+import { getPasswordEntries } from "./utils/get-password-entries";
 
-export const getPasswordEntries = (file: string): PasswordEntry[] => {
-  const entries = file.split("\n").filter((input) => input !== "");
-
-  return entries.map((input) => {
-    const regex = /(\d+)-(\d+)\s([a-z]):\s([a-z]+)/;
-    const matches = regex.exec(input);
-
-    return {
-      digitOne: +matches[1],
-      digitTwo: +matches[2],
-      char: matches[3],
-      password: matches[4],
-    };
-  });
-};
-
-const file = readInput("input.txt");
+const file = readInput();
 const input = getPasswordEntries(file);
 
 console.time("Time");

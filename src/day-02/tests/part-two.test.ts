@@ -1,5 +1,5 @@
 import { partTwo } from "../part-two";
-import { getPasswordEntries } from "../index";
+import { getPasswordEntries } from "../utils/get-password-entries";
 import { readInput } from "../../utils/read-input";
 
 describe(`2020 - Day 2 - Part Two`, () => {

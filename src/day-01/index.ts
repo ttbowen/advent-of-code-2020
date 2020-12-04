@@ -1,13 +1,10 @@
 import { partOne } from "./part-one";
 import { partTwo } from "./part-two";
-import { readInput } from "../utils/read-input";
+import { readInput } from '../utils/read-input';
+import { getReportEntries } from './utils/get-report-entries';
 
-export const getReportEntries = (): number[] =>
-  readInput("input.txt")
-    .split("\n")
-    .map((number) => parseInt(number));
-
-const input = getReportEntries();
+const file = readInput();
+const input = getReportEntries(file);
 
 console.time("Time");
 const resultOne = partOne(input);

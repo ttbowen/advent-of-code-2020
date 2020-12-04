@@ -1,6 +1,6 @@
 import { partOne } from "../part-one";
-import { getPasswordEntries } from "../index";
-import { readInput } from '../../utils/read-input';
+import { readInput } from "../../utils/read-input";
+import { getPasswordEntries } from "../utils/get-password-entries";
 
 describe(`2020 - Day 2 - Part One`, () => {
   it(`should return 2 valid passwords with example input`, () => {
