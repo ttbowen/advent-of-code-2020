@@ -24,7 +24,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 2: Password Philosophy](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-02)| ⭐ | ⭐ |
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-03)| ⭐ | ⭐ |
 | ✔ [Day 4: Passport Processing](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-04)| ⭐ | ⭐ |
-| [Day 5: TBD]()| | |
+| ✔ [Day 5: Binary Boarding](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-05)| ⭐ | ⭐ |
 | [Day 6: TBD]()| | |
 | [Day 7: TBD]()| | |
 | [Day 8: TBD]()| | |
