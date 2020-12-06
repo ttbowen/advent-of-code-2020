@@ -25,7 +25,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 3: Toboggan Trajectory](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-03)| ⭐ | ⭐ |
 | ✔ [Day 4: Passport Processing](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-04)| ⭐ | ⭐ |
 | ✔ [Day 5: Binary Boarding](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-05)| ⭐ | ⭐ |
-| [Day 6: TBD]()| | |
+| ✔ [Day 6: Custom Customs](https://github.com/ttbowen/advent-of-code-2020/tree/master/src/day-06)| ⭐ | ⭐ |
 | [Day 7: TBD]()| | |
 | [Day 8: TBD]()| | |
 | [Day 9: TBD]()| | |
